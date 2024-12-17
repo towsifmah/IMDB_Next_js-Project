@@ -7,7 +7,7 @@ import DrakModeSwitch from './DrakModeSwitch'
 export default function Header() {
   return (
     <div className='flex justify-between p-3 items-center max-w-6xl mx-auto'>
-        <div className='flex gap-4'>
+        <div className='flex gap-6'>
             <MenuItems title="home" address="/" Icon={AiFillHome}/>
             <MenuItems title="about" address="/about" Icon={BsFillInfoCircleFill}/>
         </div>
