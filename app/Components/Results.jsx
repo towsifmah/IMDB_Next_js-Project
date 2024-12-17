@@ -7,7 +7,6 @@ export default function Results({ results }) {
             results.map((result)=>(
                 <div key={result.id}>
                     <h2>{result.original_title}</h2>
-                    <p>{result.overview}</p>
                 </div>
             ))
         }
