@@ -13,6 +13,7 @@ export default function Card({ result }) {
           alt="movie_banner"
           width={500}
           height={300}
+          style={{maxWidth: "100%", objectFit: "cover"}}
           className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
         ></Image>
         <div className="p-2">
